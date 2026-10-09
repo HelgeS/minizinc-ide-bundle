@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MiniZinc IDE
+GenericName=Constraint Modelling IDE
+Comment=Develop and run MiniZinc constraint models
+Exec=minizinc-ide %F
+Icon=minizinc-ide
+Terminal=false
+Categories=Development;IDE;Science;Math;
+StartupWMClass=MiniZincIDE

@@ -1,0 +1,7 @@
+# makepkg working directories and outputs
+/src/
+/pkg/
+*.pkg.tar*
+# downloaded sources
+*.tgz
+*.png
