@@ -5,7 +5,7 @@
 # `updpkgsums`, then `makepkg -si`.
 
 pkgname=minizinc-ide-bundle
-pkgver=2.10.1
+pkgver=2.11.0
 pkgrel=1
 pkgdesc="MiniZinc IDE and compiler with bundled solvers (official prebuilt bundle)"
 arch=('x86_64')
@@ -22,7 +22,7 @@ source=("https://github.com/MiniZinc/MiniZincIDE/releases/download/${pkgver}/${_
         "minizinc-ide-${pkgver}.png::https://raw.githubusercontent.com/MiniZinc/MiniZincIDE/${pkgver}/resources/icon.png"
         'minizinc-ide.sh'
         'minizinc-ide.desktop')
-sha256sums=('b63dd88491d47b05d0eb0ff4aa1112d1e6f77292c023800b20b98851458ce01c'
+sha256sums=('91d8d806ed632e5ff6d911c2773cdc3fce9549f0147b39477524c11b22e858fe'
             'eaa69a6d1b8a3e307d1b400b74273995abb914fbe1246c65fc9b3955b2094023'
             '75c06329d0e9e0aa777f43b6cefe414e97f9e7bdd9f146eb395cb3555836ad32'
             'ba833f132f2de5822e3304f6b9d2818b3c492bb6caaac1b6eddf7fdc5cafca54')
